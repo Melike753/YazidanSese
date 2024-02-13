@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+                           integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                           crossorigin="anonymous"
+                           referrerpolicy="no-referrer">
+    <title>Yazıyı Seslendir</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Yazıyı Seslendir</h1>
+        </header>
+
+        <div class="content">
+            <form action="#">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="inputText">Yazı</label>
+                        <textarea id="inputText" rows="15" placeholder="Yazınızı buraya yazınız.."></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="selectVoice">Ses Seçin</label>
+                        <select></select>
+                        <div class="placeholder">
+                            <img src="https://media.tenor.com/jzBwq1DWnHAAAAAd/speech.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button type="button">Sesli Söyle</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">: Mobil cihazlarda düzgün bir görüntüleme için viewport ayarı.
+    <link rel="stylesheet" href="style.css">: style.css adlı harici bir CSS dosyasını belgeye ekler.
+    Font Awesome CDN: Font Awesome ikon kütüphanesini kullanmak için harici bir bağlantı.
+    <title>Yazıyı Seslendir</title>: Belgenin başlığı.
+    <body>: Belge içeriğini içeren bölüm.
+    <div class="container">: Sayfa içeriğini saran bir ana konteyner.
+    <header>: Sayfa başlığını içeren başlık bölümü.
+    <h1>Yazıyı Seslendir</h1>: Sayfa başlığı.
+    <div class="content">: Sayfa içeriğini içeren ana içerik bölümü.
+    Form Bölümü:
+    <form action="#">: Form elemanının başlangıcı. action="#" formun sayfa içinde işlem yapmadığını belirtir.
+    <div class="input-row">: Giriş alanlarını içeren bir sıra bölümü.
+    <div class="input-group">: Giriş alanını içeren bir grup.
+    <label for="inputText">Yazı</label>: Metin girişi etiketi.
+    <textarea id="inputText" rows="8" placeholder="Yazınızı buraya yazınız.."></textarea>: Çok satırlı metin girişi.
+    <div class="input-group">: Ses seçim alanını içeren bir grup.
+    <label for="selectVoice">Ses Seçin</label>: Ses seçimi etiketi.
+    <select></select>: Birinci şahıs, ikinci şahıs gibi ses seçeneklerini içeren bir açılır liste.
+    <div class="placeholder">: Görsel bir placeholder alanı.
+    <img src="https://media.tenor.com/jzBwq1DWnHAAAAAd/speech.gif" alt="">: Seslendirme sırasında bir görsel.
+    <button type="button">Sesli Söyle</button>: Formu göndermek için kullanılan bir buton.
+    <script src="script.js"></script>: Harici bir JavaScript dosyasını belgeye ekler.
+-->
